@@ -121,7 +121,7 @@ void Golf::releaseball() {
       ballx = -ballx;
    if (ballx <= 100+ballrad)
       ballx = -ballx;
-   if (bally <= 550+rad)
+   if (bally <= 550+ballrad)
       bally = -bally;
    if (bally >= 750 - ballrad)
       bally=-bally;
